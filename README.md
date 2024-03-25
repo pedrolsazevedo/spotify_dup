@@ -40,3 +40,8 @@ run as container:
 ```bash
 docker run -it --rm -v $(pwd):/app --name python --hostname python-container python bash
 ```
+
+## Docker
+
+docker pull python
+docker run -it --rm -v $(pwd):/app --name python --hostname python-container python bash
